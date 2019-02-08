@@ -84,9 +84,4 @@ function makeTitle() {
 
   batchModify(rootDir);
 }
-module.exports = {
-  hooks: {
-    'page:before': processSEO,
-    'finish': makeSEO
-  }
-};
+
