@@ -1,12 +1,13 @@
 require(["gitbook"], function(gitbook) {
     gitbook.events.bind("start", function(e, config) {
-        config["baidu-host"] = config["baidu-host"] || {};
+        config["baidu-tongji"] = config["baidu-tongji"] || {};
         var host = location.host;
-        if(config["baidu-host"].url != host){
-            return;
+        if(config["baidu-tongji"].url != host){
+            return
         }
+
         var hm = document.createElement('script');
-        hm.src =config["baidu-host"].url+'?' + config["baidu-host"].token;
+        hm.src =config["baidu-tongji"].url+'?' + config["baidu-tongji"].token;
         var s = document.getElementsByTagName('script')[0];
         s.parentNode.insertBefore(hm, s);
     });
