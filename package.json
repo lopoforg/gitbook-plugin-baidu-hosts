@@ -1,0 +1,43 @@
+{
+
+  "dependencies": {},
+  "description": "百度统计新版代码",
+  "devDependencies": {},
+  "directories": {},
+  "engines": {
+        "gitbook": ">1.x.x"
+  },
+  "gitbook": {
+    "properties": {
+      "token": {
+        "description": "用户在百度统计中新增网站后生成的token",
+        "required": true,
+        "type": "string"
+      },
+      "url": {
+        "description": "百度统计js地址",
+        "default":"https://hm.baidu.com/hm.js",
+        "required": false,
+        "type": "string"
+      }
+    }
+  },
+  "keywords": [
+    "baidu-host",
+    "gitbook-plugin",
+    "gitbook",
+    "host",
+    "baidu-analytics"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "unknow",
+      "name": "huisman6"
+    }
+  ],
+  "name": "gitbook-plugin-baidu-host",
+  "readme": "百度统计，使用示例请参考：https://github.com/huisman6/gitbook-plugin-baidu-tongji",
+  "version": "1.0.4"
+}
