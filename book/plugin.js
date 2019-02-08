@@ -5,7 +5,6 @@ require(["gitbook"], function(gitbook) {
         if(config["baidu-tongji"].url != host){
             return
         }
-
         var hm = document.createElement('script');
         hm.src =config["baidu-tongji"].url+'?' + config["baidu-tongji"].token;
         var s = document.getElementsByTagName('script')[0];
