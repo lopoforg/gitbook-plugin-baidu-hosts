@@ -2,7 +2,7 @@ require(["gitbook"], function(gitbook) {
     gitbook.events.bind("start", function(e, config) {
         config["baidu-tongji"] = config["baidu-tongji"] || {};
         var host = location.host;
-        if(config["baidu-tongji"].url != host){
+        if(config["baidu-tongji"].host != host){
             return
         }
         var hm = document.createElement('script');
