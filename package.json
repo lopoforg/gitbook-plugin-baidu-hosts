@@ -1,14 +1,5 @@
 {
-  "author": {
-    "email": "unknown",
-    "name": "huisman6",
-    "url": "https://github.com/huisman6/gitbook-plugin-baidu-tongji"
-  },
-  "bugs": {
-    "url": "https://github.com/huisman6/gitbook-plugin-baidu-tongji/issues"
-  },
   "dependencies": {},
-  "description": "百度统计新版代码",
   "devDependencies": {},
   "directories": {},
   "engines": {
@@ -29,23 +20,10 @@
       }
     }
   },
-  "homepage": "https://github.com/huisman6/gitbook-plugin-baidu-tongji",
   "keywords": [
-    "baidu-tongji",
-    "gitbook-plugin",
-    "gitbook",
-    "tongji",
-    "baidu-analytics"
+    "baidu-hosts"
   ],
-  "license": "MIT",
   "main": "index.js",
-  "maintainers": [
-    {
-      "email": "unknow",
-      "name": "huisman6"
-    }
-  ],
-  "name": "gitbook-plugin-baidu-tongji",
-  "readme": "百度统计，使用示例请参考：https://github.com/huisman6/gitbook-plugin-baidu-tongji",
-  "version": "1.0.4"
+  "name": "gitbook-plugin-baidu-hosts",
+  "version": "1.0.0"
 }
